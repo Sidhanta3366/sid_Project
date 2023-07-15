@@ -1,0 +1,55 @@
+2023-07-15 10:17:00,492 INFO  StartupInfoLogger:55 -[] Starting UsitPortalApplication using Java 11.0.17 on DESKTOP-JSRCNTU with PID 17428 (F:\Narvee Tech New Project\UsitPortalNew\target\classes started by new in F:\Narvee Tech New Project\UsitPortalNew)
+2023-07-15 10:17:00,512 INFO  SpringApplication:634 -[] No active profile set, falling back to 1 default profile: "default"
+2023-07-15 10:17:00,620 INFO  DeferredLog:255 -[] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-15 10:17:00,621 INFO  DeferredLog:255 -[] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-15 10:17:01,842 INFO  RepositoryConfigurationDelegate:132 -[] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-15 10:17:02,065 INFO  RepositoryConfigurationDelegate:201 -[] Finished Spring Data repository scanning in 186 ms. Found 24 JPA repository interfaces.
+2023-07-15 10:17:02,646 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8090 (http)
+2023-07-15 10:17:02,658 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2023-07-15 10:17:02,659 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-07-15 10:17:02,807 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2023-07-15 10:17:02,808 INFO  ServletWebServerApplicationContext:292 -[] Root WebApplicationContext: initialization completed in 2186 ms
+2023-07-15 10:17:03,016 INFO  LogHelper:31 -[] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-15 10:17:03,065 INFO  Version:44 -[] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-07-15 10:17:03,250 INFO  JavaReflectionManager:56 -[] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-15 10:17:03,346 WARN  HikariConfig:1042 -[] HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2023-07-15 10:17:03,348 WARN  HikariConfig:1092 -[] HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-07-15 10:17:03,348 INFO  HikariDataSource:110 -[] HikariPool-1 - Starting...
+2023-07-15 10:17:03,766 INFO  HikariDataSource:123 -[] HikariPool-1 - Start completed.
+2023-07-15 10:17:03,788 INFO  Dialect:175 -[] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-15 10:17:05,583 INFO  JtaPlatformInitiator:52 -[] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-15 10:17:05,652 INFO  AbstractEntityManagerFactoryBean:437 -[] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15 10:17:08,856 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 -[] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-15 10:17:09,285 INFO  PropertySourcedRequestMappingHandlerMapping:69 -[] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-15 10:17:09,569 INFO  OptionalLiveReloadServer:59 -[] LiveReload server is running on port 35729
+2023-07-15 10:17:10,015 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8090 (http) with context path '/usit'
+2023-07-15 10:17:10,017 INFO  DocumentationPluginsBootstrapper:160 -[] Context refreshed
+2023-07-15 10:17:10,107 INFO  DocumentationPluginsBootstrapper:163 -[] Found 1 custom documentation plugin(s)
+2023-07-15 10:17:10,192 INFO  ApiListingReferenceScanner:41 -[] Scanning for api listing references
+2023-07-15 10:17:10,715 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: downloadFileUsingGET_1
+2023-07-15 10:17:10,732 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: downloadresumeUsingGET_1
+2023-07-15 10:17:10,738 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: removeFileUsingGET_1
+2023-07-15 10:17:10,745 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadMultipleFile2UsingPOST_1
+2023-07-15 10:17:10,794 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_1
+2023-07-15 10:17:10,796 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: duplicateCheckUsingGET_1
+2023-07-15 10:17:10,813 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_1
+2023-07-15 10:17:10,865 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_1
+2023-07-15 10:17:10,871 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_2
+2023-07-15 10:17:10,880 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRoleUsingGET_1
+2023-07-15 10:17:10,896 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_1
+2023-07-15 10:17:10,903 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_2
+2023-07-15 10:17:10,919 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRequirmentByIDUsingGET_1
+2023-07-15 10:17:10,931 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateTimeSheetUsingPUT_1
+2023-07-15 10:17:10,936 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_3
+2023-07-15 10:17:10,941 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_3
+2023-07-15 10:17:10,955 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: approveVMSUsingGET_1
+2023-07-15 10:17:10,958 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_2
+2023-07-15 10:17:10,960 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteUsingDELETE_1
+2023-07-15 10:17:10,961 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: duplicateCheckUsingGET_2
+2023-07-15 10:17:10,965 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getbyIdUsingGET_1
+2023-07-15 10:17:10,972 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_2
+2023-07-15 10:17:10,976 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_1
+2023-07-15 10:17:11,056 INFO  StartupInfoLogger:61 -[] Started UsitPortalApplication in 10.999 seconds (JVM running for 12.197)
+2023-07-15 10:17:25,590 INFO  DirectJDKLog:173 -[] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 10:17:25,591 INFO  FrameworkServlet:525 -[] Initializing Servlet 'dispatcherServlet'
+2023-07-15 10:17:25,593 INFO  FrameworkServlet:547 -[] Completed initialization in 1 ms
